@@ -8,5 +8,11 @@ $(document).ready(function() {
   $("button#all").click(function () {
     $("ul#dog").append("<li>Growl Growl</li>");
     $("ul#cat").append("<li>Hiss Hiss</li>");
+    $("ul#cat").children("li").first().click(function() {
+      $("#fight").show();
+    });
+    $("ul#dog").children("li").first().click(function() {
+      $("#fight").hide();
+    });
   });
 });

@@ -1,0 +1,8 @@
+#fight {
+  display: none;
+}
+
+#fight img {
+  max-width: 300px;
+  border-radius: 30%;
+}
