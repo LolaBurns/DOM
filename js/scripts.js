@@ -40,6 +40,7 @@ $(document).ready(function() {
 
     $(".receipt").show();
     $("#ordering").hide();
+
     event.preventDefault();
   });
 });
