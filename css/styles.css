@@ -6,3 +6,19 @@
   max-width: 300px;
   border-radius: 30%;
 }
+
+
+.story {
+  display: none;
+  margin-top: 30px;
+}
+
+#ordering {
+  margin-top: 30px;
+}
+
+.receipt {
+  display: none;
+  margin-top: 30px;
+  
+}

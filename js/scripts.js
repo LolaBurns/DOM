@@ -15,4 +15,31 @@ $(document).ready(function() {
       $("#fight").hide();
     });
   });
+
+  $("#madlib").submit(function(event) {
+    var nameInput = $("input#name").val();
+    var adjectiveInput = $("input#adjective").val();
+    var animalInput = $("input#animal").val();
+
+    $(".name").text(nameInput);
+    $(".adjective").text(adjectiveInput);
+    $(".animal").text(animalInput);
+
+    $(".story").show();
+
+    event.preventDefault();
+  });
+  $("#ordering").submit(function(event) {
+    var fullInput = $("input#full").val();
+    var addressInput = $("input#address").val();
+    var itemInput = $("input#item").val();
+
+    $(".full").text(fullInput);
+    $(".address").text(addressInput);
+    $(".item").text(itemInput);
+
+    $(".receipt").show();
+    $("#ordering").hide();
+    event.preventDefault();
+  });
 });

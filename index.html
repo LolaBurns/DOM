@@ -35,5 +35,52 @@
         </div>
       </div>
     </div>
+    <div class="container">
+      <form id="madlib">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input id="name" type="text" class="form-control" placeholder="Joe">
+        </div>
+        <div class="form-group">
+          <label for="adjective">Adjective</label>
+          <input type="text" class="form-control" id="adjective" placeholder="Blue">
+        </div>
+        <div class="form-group">
+          <label for="animal">Animal</label>
+          <input type="text" class="form-control" id="animal" placeholder="Lion">
+        </div>
+        <button type="submit" class="btn btn-warning">Show me the money! "Story"</button>
+      </form>
+      <!-- This is __name__. They are a/n __adj__ programmer. They have an __animal__. -->
+      <div class="story">
+        <p>This is <span class="name"></span>. They are a/n <span class="adjective"></span> programmer. They have an <span class="animal"></span>.</p>
+      </div>
+    </div>
+    <div class="container">
+      <div id="orderform">
+        <form id="ordering">
+          <div class="form-group">
+            <label for="full">Full Name</label>
+            <input id="full" type="text" class="form-control" placeholder="Joe Blow">
+          </div>
+          <div class="form-group">
+            <label for="address">Address</label>
+            <input type="text" class="form-control" id="address" placeholder="1111 SE Code St">
+          </div>
+          <div class="form-group">
+            <label for="item">Item</label>
+            <input type="text" class="form-control" id="item" placeholder="Charlie Brown">
+          </div>
+          <button type="submit" class="btn btn-warning">Submit Order</button>
+        </form>
+        <div class="receipt">
+          <p>Name: <span class="full"></span><br/>
+            Address: <span class="address"></span><br/>
+            You ordered: <span class="item"></span><br/>
+            Thanks for being our friend!
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
