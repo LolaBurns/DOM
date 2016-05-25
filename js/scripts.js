@@ -43,4 +43,8 @@ $(document).ready(function() {
 
     event.preventDefault();
   });
+
+  $(".receipt").click(function() {
+    alert("Contact me for questions.")
+  });
 });
